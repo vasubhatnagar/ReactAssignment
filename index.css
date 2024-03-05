@@ -1,0 +1,77 @@
+
+.parentHeaderDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: blueviolet;
+}
+body{
+    font-family: "Poppins";
+    margin: 0px!important;
+    background-color: #F5F8FE;
+}
+.heading1{
+    color: white;
+}
+.searchInput{
+   padding: 5px 10px;
+}
+.bodyContainer{
+    padding: 40px;
+}
+.AdminCardParent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #F5F8FE;
+}
+.cardParent{
+    height: 53px;
+    width: 257px;
+    box-shadow: 0px 0px 8px lightgray;
+    border-radius: 12px;
+    padding: 7px 10px;
+    margin: 7px;
+    font-size: 10px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+
+.empImage{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+.rightDiv{
+    margin-left: 15px;
+}
+h2{
+    margin: 0px;
+}
+.RoleHeading{
+    color: #AFAEAD;
+}
+
+.cardParent:hover {
+    z-index: 2;
+    height: 80px;
+    width: 250px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px darkgray;
+}
+
+.shimmerParent{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #F5F8FE;
+}
+.searchInput{
+    border-radius: 25px;
+    border: none;
+    padding: 10px 20px;
+}
