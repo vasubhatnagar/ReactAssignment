@@ -1,5 +1,3 @@
-import Search from "./Search";
-
 const EmployeeCard = (props) => {
   const { info } = props;
   return (

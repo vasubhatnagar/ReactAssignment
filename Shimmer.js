@@ -1,5 +1,3 @@
-import Search from "./Search";
-
 const Shimmer = () => {
   return (
     <div className="shimmerParent">

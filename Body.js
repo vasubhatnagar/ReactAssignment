@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import EmployeeCard from "./EmployeeCard";
-import Search from "./Search";
 import Shimmer from "./Shimmer";
 
 const Body = () => {
